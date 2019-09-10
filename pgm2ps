@@ -10,8 +10,8 @@ while [ $# -gt 0 ]; do
 #	     573.84x755.28+19.08+18.36 for US Letter.
 #            Don't forget to change XCROSSES and YCROSSES in optar.h and
 #            recompile.
-	convert -page 556.56x807.12+19.22+17.44 "$1" "$target"
-#	convert -page 573.84x755.28+19.08+18.36 "$1" "$target"
+#	convert -page 556.56x807.12+19.22+17.44 "$1" "$target"
+	convert -page 573.84x755.28+19.08+18.36 "$1" "$target"
 	shift
 done
 

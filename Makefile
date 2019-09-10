@@ -1,4 +1,4 @@
-LDFLAGS=-L/usr/local/lib
+LDFLAGS=-L/opt/local/lib
 CFLAGS=-O3 -Wall -Wuninitialized -fomit-frame-pointer -funroll-loops \
 	-fstrength-reduce -DNODEBUG `libpng-config --I_opts`
 LDLIBS=-lpng -lz -lm
